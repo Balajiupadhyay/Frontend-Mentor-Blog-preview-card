@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Figtree', sans-serif;
+    background-color: hsl(47, 88%, 63%);
+}
+.content
+{
+    justify-content: center;
+    padding: 20px;
+    width: 380px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 5px black;
+    border: 1px solid black;
+}
+.banner img
+{
+    border-radius: 8px;
+    width: fit-content;
+}
+.filter
+{
+    margin: 10px 0;
+    width: fit-content;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 4px;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.publish-time
+{
+    margin: 10px 0;
+    color: hsl(0, 0%, 7%);
+}
+
+.banner-info
+{
+    margin: 10px 0;
+    color: hsl(0, 0%, 50%)
+}
+
+
+.avatar 
+{
+    display: flex;
+    align-items: center;
+}
+
+.avatar img
+{
+    height: 20px;
+}
+
+.avatar span
+{
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+
+@media  only screen and (max-width: 376px)
+{
+    .content
+    {
+        width: 300px;
+    }
+
+    .banner img
+    {
+        width: 260px;
+    }
+}
